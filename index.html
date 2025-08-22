@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeWorld - Premium Bikes for Every Adventure</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">BikeWorld</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bikes">Bikes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cta-buttons">
+                <a href="#bikes" class="btn btn-outline">Shop Now</a>
+                <a href="#contact" class="btn btn-primary">Get Quote</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ride Your <span class="highlight">Adventure</span></h1>
+            <p>Discover premium bikes designed for every terrain and every rider. From mountain trails to city streets, find your perfect ride.</p>
+            <div class="hero-buttons">
+                <a href="#bikes" class="btn btn-primary">Explore Bikes</a>
+                <a href="#contact" class="btn btn-outline">Book Test Ride</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Bikes Section -->
+    <section id="bikes">
+        <div class="container">
+            <h2 class="section-title">Featured Bikes</h2>
+            <p class="section-subtitle">Discover our hand-picked selection of premium bikes, each designed for specific riding styles and terrains.</p>
+
+            <div class="bikes-grid">
+                <div class="bike-card">
+                    <img src="https://images.unsplash.com/photo-1665134781553-28862521c2ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGJpa2UlMjBjeWNsaW5nfGVufDF8fHx8MTc1NTc4OTU4MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Mountain Explorer Pro" class="bike-image">
+                    <div class="bike-info">
+                        <h3 class="bike-name">Mountain Explorer Pro</h3>
+                        <p class="bike-category">Mountain Bike</p>
+                        <div class="bike-price">$2,499</div>
+                        <ul class="bike-features">
+                            <li>27-Speed Gearing</li>
+                            <li>Carbon Frame</li>
+                            <li>Hydraulic Brakes</li>
+                        </ul>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="#" class="btn btn-primary" style="flex: 1; text-align: center;">View Details</a>
+                            <a href="#" class="btn btn-outline" style="flex: 1; text-align: center;">Test Ride</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bike-card">
+                    <img src="https://images.unsplash.com/photo-1530224817496-896c93ad3178?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb2FkJTIwYmlrZSUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTU3ODk1ODF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Road Racer Elite" class="bike-image">
+                    <div class="bike-info">
+                        <h3 class="bike-name">Road Racer Elite</h3>
+                        <p class="bike-category">Road Bike</p>
+                        <div class="bike-price">$3,299</div>
+                        <ul class="bike-features">
+                            <li>Ultra-Light Frame</li>
+                            <li>Aerodynamic Design</li>
+                            <li>Pro Components</li>
+                        </ul>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="#" class="btn btn-primary" style="flex: 1; text-align: center;">View Details</a>
+                            <a href="#" class="btn btn-outline" style="flex: 1; text-align: center;">Test Ride</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bike-card">
+                    <img src="https://images.unsplash.com/photo-1692668696893-d8e5fb0fadad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMGJpa2UlMjB1cmJhbnxlbnwxfHx8fDE3NTU3ODk1ODF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Urban E-Bike Plus" class="bike-image">
+                    <div class="bike-info">
+                        <h3 class="bike-name">Urban E-Bike Plus</h3>
+                        <p class="bike-category">Electric Bike</p>
+                        <div class="bike-price">$1,899</div>
+                        <ul class="bike-features">
+                            <li>50-Mile Range</li>
+                            <li>Smart Battery</li>
+                            <li>City Optimized</li>
+                        </ul>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="#" class="btn btn-primary" style="flex: 1; text-align: center;">View Details</a>
+                            <a href="#" class="btn btn-outline" style="flex: 1; text-align: center;">Test Ride</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose BikeWorld?</h2>
+                    <p>For over 15 years, BikeWorld has been the trusted destination for cycling enthusiasts. We combine passion for cycling with expert knowledge to help you find the perfect bike.</p>
+
+                    <ul class="features-list">
+                        <li>
+                            <div class="feature-icon">★</div>
+                            <div>
+                                <h4>Expert Guidance</h4>
+                                <p>Our certified mechanics and cycling experts help you choose the right bike for your needs.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">🔧</div>
+                            <div>
+                                <h4>Professional Service</h4>
+                                <p>Complete maintenance and repair services to keep your bike in perfect condition.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">👥</div>
+                            <div>
+                                <h4>Community Focus</h4>
+                                <p>Join our cycling community with group rides, events, and workshops.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1750341472956-e69e84cc71a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWtlJTIwc2hvcCUyMGludGVyaW9yfGVufDF8fHx8MTc1NTc4OTU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Bike shop interior" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Visit our showroom, schedule a test ride, or get in touch with our cycling experts.</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>📍 Visit Our Store</h3>
+                        <p>123 Cycling Street<br>
+                            Bike City, BC 12345<br>
+                            United States</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>📞 Call Us</h3>
+                        <p>+1 (555) 123-4567<br>
+                            Mon-Fri: 9AM-7PM<br>
+                            Sat-Sun: 10AM-6PM</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>✉️ Email Us</h3>
+                        <p>info@bikeworld.com<br>
+                            sales@bikeworld.com<br>
+                            service@bikeworld.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your cycling needs..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BikeWorld</h3>
+                    <p>Your trusted partner for all cycling adventures. Quality bikes, expert service, and passionate community.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#bikes">Our Bikes</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Bike Sales</a></li>
+                        <li><a href="#">Repairs & Service</a></li>
+                        <li><a href="#">Test Rides</a></li>
+                        <li><a href="#">Bike Fitting</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>123 Cycling Street<br>
+                        Bike City, BC 12345<br>
+                        Phone: +1 (555) 123-4567<br>
+                        Email: info@bikeworld.com</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 BikeWorld. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
